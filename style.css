@@ -20,17 +20,19 @@ h1{
   background-color: #000a4d;
   width: 100%;
   margin: 0;
-  font-size: 3.5vw;
+  font-size: 4vw;
   margin-bottom: 2vw;
+  padding: 1.6vw;
 }
 
 h2{
   text-align: center;
   color: black;
-  font-size: 2vw;
+  font-size: 2.5vw;
   padding-left: 5vw;
   padding-right: 5vw;
 }
+
 
 button{
   margin-top: 5vw;
@@ -41,8 +43,24 @@ button{
   background-color: #000a4d;
   color:white;
   border-radius: 1vw;
-  font-size: 1.6vw;
+  font-size: 2.5vw;
   cursor: pointer;
+}
+
+img{
+  border-radius: 2vw;
+}
+
+.left-img{
+  width: 20vw;
+  float: left;
+  margin-left: 12vw;
+}
+
+.right-img{
+  width: 20vw;
+  float: right;
+    margin-right: 12vw;
 }
 
 button:hover{
@@ -62,12 +80,12 @@ th{
   color: white;
   border: solid;
   border-color: black;
-  font-size: 1.5vw;
+  font-size: 3vw;
   height: 3vw;
 }
 
 tr{
-  height: 2vw;
+  height: 4vw;
   background-color: #ffffff;
 }
 
@@ -82,5 +100,11 @@ tr:hover{
 td {
   border: solid;
   text-align: center;
+  font-size: 2vw;
+}
+
+footer{
+  clear: both;
   font-size: 1vw;
+  margin-left: 1vw;
 }
